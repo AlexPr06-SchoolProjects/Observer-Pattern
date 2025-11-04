@@ -183,5 +183,3 @@ Feel free to use or modify it for learning and practice.
 
 ---
 
-Would you like me to add a short **Ukrainian summary paragraph** at the top (e.g., for a university submission)?
-`````
