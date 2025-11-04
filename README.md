@@ -149,12 +149,11 @@ Feel free to use or modify it for learning and practice.
 
 ---
 
-## ✨ Author
+## 🧑‍💻 Author
 
-**Name:** *AlexPr06*
-**Assignment:** *Design Patterns Homework – Observer Pattern*
-**Language:** C# / .NET 9
-**Date:** *November 2025*
+**AlexPr06**
+💬 Passionate about clean C# architecture and beautiful CLI design.
+
 
 ---
 
