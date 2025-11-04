@@ -1,6 +1,4 @@
 
----
-
 ```markdown
 # 🧩 Observer Pattern — C# Console Application
 
