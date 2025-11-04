@@ -169,14 +169,5 @@ Feel free to use or modify it for learning and practice.
 
 🎓 *“When one object changes state, all its dependents are notified automatically.” — Observer Pattern principle*
 
-
----
-
-### ✅ What was wrong before:
-- You had **extra backticks** (```` and ```markdown``` mixed).
-- Code blocks (especially the folder tree and `dotnet` commands) weren’t closed properly.
-- Some list indentation and spacing between sections were off.
-- The "Project Structure" block wasn’t fenced cleanly, so GitHub would render it as plain text, not a code block.
-
 ---
 
