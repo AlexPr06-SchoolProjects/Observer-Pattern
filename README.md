@@ -18,48 +18,46 @@ and then receive notifications through the selected notifiers.
 ## 📁 Project Structure
 
 ```
-
 Observer Pattern/
 │
 ├── Observer Pattern.sln
 └── Observer Pattern/
 ├── App/
-│   └── Application.cs              # Main application logic (NotifyingApplication)
+│ └── Application.cs # Main application logic (NotifyingApplication)
 │
 ├── Factories/
-│   └── NotifierFactory/
-│       ├── NotifierCreator.cs
-│       └── NotifierCreatorTypes/   # Factory classes for each notifier
-│           ├── ConsoleNotifierCreator.cs
-│           ├── EmailNotifierCreator.cs
-│           ├── SMSNotifierCreator.cs
-│           ├── SlackNotifierCreator.cs
-│           ├── SoundNotifierCreator.cs
-│           └── TelegramNotifierCreator.cs
+│ └── NotifierFactory/
+│ ├── NotifierCreator.cs
+│ └── NotifierCreatorTypes/ # Factory classes for each notifier
+│ ├── ConsoleNotifierCreator.cs
+│ ├── EmailNotifierCreator.cs
+│ ├── SMSNotifierCreator.cs
+│ ├── SlackNotifierCreator.cs
+│ ├── SoundNotifierCreator.cs
+│ └── TelegramNotifierCreator.cs
 │
 ├── Interfaces/
-│   └── INotifiable.cs              # Defines notifier interface
+│ └── INotifiable.cs # Defines notifier interface
 │
 ├── Managers/
-│   └── NotifierManager.cs          # Manages a pool of notifiers and triggers notifications
+│ └── NotifierManager.cs # Manages a pool of notifiers and triggers notifications
 │
 ├── Notifiers/
-│   ├── Notifier.cs                 # Base class for all notifiers
-│   ├── Data/
-│   │   └── NotifiableData.cs       # Shared data passed to all notifiers
-│   └── NotifierTypes/
-│       ├── ConsoleNotifier.cs
-│       ├── EmailNotifier.cs
-│       ├── SMSNotifier.cs
-│       ├── SlackNotifier.cs
-│       ├── SoundNotifier.cs
-│       └── TelegramNotifier.cs
+│ ├── Notifier.cs # Base class for all notifiers
+│ ├── Data/
+│ │ └── NotifiableData.cs # Shared data passed to all notifiers
+│ └── NotifierTypes/
+│ ├── ConsoleNotifier.cs
+│ ├── EmailNotifier.cs
+│ ├── SMSNotifier.cs
+│ ├── SlackNotifier.cs
+│ ├── SoundNotifier.cs
+│ └── TelegramNotifier.cs
 │
 └── User/
 ├── Account.cs
-└── User.cs                     # Represents a user with an associated account
-
-````
+└── User.cs # Represents a user with an associated account
+```
 
 ---
 
