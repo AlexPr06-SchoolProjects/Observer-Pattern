@@ -87,7 +87,6 @@ In this project:
 2. **Restore dependencies** (Spectre.Console):
    ```bash
    dotnet restore
-````
 
 3. **Run the app:**
 
@@ -171,7 +170,6 @@ Feel free to use or modify it for learning and practice.
 
 🎓 *“When one object changes state, all its dependents are notified automatically.” — Observer Pattern principle*
 
-`````
 
 ---
 
