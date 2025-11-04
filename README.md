@@ -1,12 +1,6 @@
 
 ---
 
-Here’s the **corrected and fully polished version** 👇
-(copy–paste this directly into your `README.md`)
-
----
-
-```markdown
 # 🧩 Observer Pattern — C# Console Application
 
 This project is a small educational demonstration of the **Observer Design Pattern** implemented in **C# (.NET 9)**.  
