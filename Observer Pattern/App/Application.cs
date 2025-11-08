@@ -9,7 +9,6 @@ using UserType = Observer_Pattern.User.User;
 
 namespace Observer_Pattern.App
 {
-
     internal class NotifyingApplication
     {
         // NotifyingData
@@ -31,7 +30,6 @@ namespace Observer_Pattern.App
         public NotifyingApplication(NotifiableData notifyingData)
         {
             NotifyingData = notifyingData;
-
 
             NotiferManager = new NotiferManager();
             NotifierList = new List<Notifier>();
@@ -91,7 +89,7 @@ namespace Observer_Pattern.App
             foreach (var notifier in notifierList)
             {
                 var confirmation = AnsiConsole.Prompt(
-                new TextPrompt<bool>($"Whould you like we send you notifications with {notifier}: ")
+                new TextPrompt<bool>($"Whould you like we send you notifications with {notifier.GetType().Name}: ")
                     .AddChoice(true)
                     .AddChoice(false)
                     .DefaultValue(true)
